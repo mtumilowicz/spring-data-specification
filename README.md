@@ -63,7 +63,7 @@ with the `JpaSpecificationExecutor` interface, as follows:
     ```
 1. The power of specifications really shines when you combine them to 
 create new Specification objects:
-    * or
+    * **or**
     ```
     @Test
     public void or() {
@@ -72,7 +72,7 @@ create new Specification objects:
         assertThat(employees, hasSize(2));
     }    
     ```
-    * and
+    * **and**
     ```
     @Test
     public void and() {
